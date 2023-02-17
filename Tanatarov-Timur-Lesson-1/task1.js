@@ -1,1 +1,1 @@
-const twoCountSum = (a, b) => parseFloat((+a + +b).toFixed(1));
+const twoCountSum = (a, b) => parseFloat((+a + +b).toFixed(3));
