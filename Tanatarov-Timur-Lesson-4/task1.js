@@ -13,7 +13,3 @@ Array.prototype.filterArray = function (callback, thisArg) {
         return result
     }
 };
-
-
-
-
