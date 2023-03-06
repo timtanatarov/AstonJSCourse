@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survive racing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="parent">
+<div class="div1">
+    <fieldset class="select-of-car">
+        <legend>
+            <h3>
+                Выберите тип автомобиля
+            </h3>
+        </legend>
+        <div>
+            <input type="radio" class="i-1" id="i10" checked name="rb-1" value="Civilian">
+            <label for="i10">Гражданский</label>
+        </div>
+        <div>
+            <input type="radio" class="i-1" id="i11" name="rb-1" value="Sport">
+            <label for="i11">Спортивный</label>
+        </div>
+        <div>
+            <input type="radio" class="i-1" id="i12" name="rb-1" value="Military">
+            <label for="i12">Военный</label>
+        </div>
+        <button class="selected-type-of-car">Выбрать</button>
+        <div class="out-1"></div>
+    </fieldset>
+</div>
+<div class="div3">
+    <fieldset class="select-of-features">
+        <legend>
+            <h3>
+                Выберите улучшаемые характеристики
+            </h3>
+        </legend>
+        <fieldset>
+            <legend>
+                Первая характеристика:
+            </legend>
+            <div>
+                <input type="radio" class="i-2" id="i20" name="rb-20" value="fuel">
+                <label for="i20">Топливо</label>
+            </div>
+            <div>
+                <input type="radio" class="i-2" id="i21" name="rb-20" value="speed">
+                <label for="i21">Скорость</label>
+            </div>
+            <div>
+                <input type="radio" class="i-2" id="i22" name="rb-20" value="durability">
+                <label for="i22">Прочность</label>
+            </div>
+            <div>
+                <input type="radio" class="i-2" id="i23" name="rb-20" value="lowFuelConsumption">
+                <label for="i23">Запас хода</label>
+            </div>
+            <button class="selected-feature-of-car-1">Выбрать</button>
+            <div class="out-2"></div>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Вторая характеристика:
+            </legend>
+            <div>
+                <input type="radio" class="i-3" id="i30" name="rb-30" value="fuel">
+                <label for="i30">Топливо</label>
+            </div>
+            <div>
+                <input type="radio" class="i-3" id="i31" name="rb-30" value="speed">
+                <label for="i31">Скорость</label>
+            </div>
+            <div>
+                <input type="radio" class="i-3" id="i32" name="rb-30" value="durability">
+                <label for="i32">Прочность</label>
+            </div>
+            <div>
+                <input type="radio" class="i-3" id="i33" name="rb-30" value="lowFuelConsumption">
+                <label for="i33">Запас хода</label>
+            </div>
+            <button class="selected-feature-of-car-2">Выбрать</button>
+            <div class="out-3"></div>
+        </fieldset>
+        <button class="selected-feature-of-car">Выбрать</button>
+        <div class="out-30"></div>
+    </fieldset>
+</div>
+
+<div class="div2">
+    <fieldset class="select-number-of-enemies">
+        <legend>
+            <h3>
+                Выберите количество соперников
+            </h3>
+        </legend>
+        <selection class="selection">
+            <div>
+                <input type="number" class="i-4" id="i4">
+            </div>
+            <button class="selected-number-of-enemies">Выбрать</button>
+            <div class="out-4"></div>
+        </selection>
+    </fieldset>
+</div>
+
+<div class="div4">
+    <fieldset class="total-score">
+        <legend>
+            <h3>
+                Сравнительная таблица
+            </h3>
+        </legend>
+        <selection class="selection">
+            <div class="out-5"></div>
+            <div id="body"></div>
+        </selection>
+    </fieldset>
+</div>
+
+<script src="app.js">
+</script>
+</body>
+</html>
